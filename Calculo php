@@ -1,0 +1,25 @@
+c<!doctype html> 
+<html> 
+    <head>
+     <title> calculo</title>
+          </head>
+          <style>
+        
+         </style>
+     <body>
+
+       <center>
+     <?php
+     //verifica se foi digitado algum valor
+         if(isset($_POST["numero"])){
+         
+         $numero= $_POST["numero"];
+         //verifica se é maior do que 0:
+         if  ($numero >=0){
+            echo "<p class='texto'>0 numero é positivo";
+         }
+        }
+        ?>
+     </center>  
+     </body>
+</html>     
